@@ -1,0 +1,14 @@
+# venv
+.venv
+
+# environment / secrets
+.env
+
+# data
+data
+
+# Mini-Challenge Beschreibung
+Mini-Challenge.md
+
+# MacOS
+.DS_Store
