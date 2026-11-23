@@ -21,11 +21,24 @@ Bei der CV ist der Mittelwert ± Standardfehler über die 5 Folds angegeben.
 
 ## Notebook ansehen
 
-Alle Outputs sind im Notebook gespeichert, es muss nicht ausgeführt werden.
+Alle Outputs sind im Notebook gespeichert, es muss nichts ausgeführt oder installiert werden.
 
-Die Lernkurven sind als W&B-Reports eingebettet. GitHub zeigt diese nicht an. Das Notebook deshalb lokal öffnen, mit Internetverbindung.
+Die Lernkurven sind als W&B-Reports eingebettet, die GitHub nicht anzeigt. Deshalb das Repository klonen und das Notebook lokal öffnen:
 
-## Setup
+```bash
+git clone https://github.com/damiansze/DEL_FS26.git
+```
+
+1. `DEL_MC.ipynb` öffnen. Eine Internetverbindung ist nötig, ein W&B-Konto nicht.
+2. In jedem eingebetteten W&B-Fenster einmal auf **Reload** klicken, damit die Plots angezeigt werden.
+
+| Vor dem Klick auf Reload | Danach |
+|---|---|
+| <img src="docs/wandb_reload.png" width="400"> | <img src="docs/wandb_geladen.png" width="400"> |
+
+## Notebook selbst ausführen
+
+Nur nötig, wenn Zellen neu ausgeführt werden sollen.
 
 Voraussetzungen: Python 3.13 und [uv](https://docs.astral.sh/uv/).
 
